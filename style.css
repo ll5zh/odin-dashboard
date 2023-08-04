@@ -172,6 +172,25 @@ button {
     align-self: stretch;
     height: auto;
     box-shadow: 0.2rem 0.3rem 0.15rem #c3cbd6;
+    position: relative;
+}
+
+.star-img, .eye-img, .fork-img {
+    position: absolute;
+    height: 2rem;
+    bottom: 1rem;
+}
+
+.fork-img {
+    right: 1rem;
+}
+
+.eye-img {
+    right: 3rem;
+}
+
+.star-img {
+    right: 5rem;
 }
 
 .project > .text {
