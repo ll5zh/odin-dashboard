@@ -88,7 +88,13 @@ input {
     margin-left: 2.5rem;
 }
 
-#mel-img {
+#notif-img {
+    position: absolute;
+    height: 2rem;
+    right: 12rem;
+}
+
+#mel-img-1 {
     position: absolute;
     height: 3rem;
     top: -0.6rem;
@@ -106,11 +112,17 @@ input {
     grid-template-rows: auto auto;
     justify-content: space-between;
     align-items: end;
+    position: relative;
+}
+
+#mel-img-2 {
+    position: absolute;
 }
 
 .greeting {
     grid-column: 1 / 2;
     grid-row: 1 / 2;
+    padding-left: 4rem;
 }
 
 .name {
@@ -118,6 +130,7 @@ input {
     grid-row: 2 / 3;
     font-weight: 800;
     font-size: 1.4rem;
+    padding-left: 4rem;
 }
 
 .buttons {
