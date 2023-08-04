@@ -15,6 +15,7 @@ html, body {
 }
 
 .sidebar {
+    position: relative;
     grid-column: 1 / 2;
     grid-row: 1 / 3;
     background-color: #0f96d5;
@@ -24,6 +25,20 @@ html, body {
     display: flex;
     flex-direction: column;
     gap: 3rem;
+}
+
+#dash-img {
+    position: absolute;
+    height: 3rem;
+    left: 1.5rem;
+    top: 0.5rem;
+}
+
+#home-img, #prof-img, #mesg-img, #hist-img, #task-img, #comm-img, #set-img, #supp-img, #priv-img {
+    position: absolute;
+    height: 2rem;
+    left: 1.9rem;
+    margin-top: -0.6rem;
 }
 
 .dashboard {
@@ -67,6 +82,7 @@ input {
 
 .profile {
     font-weight: 800;
+    align-self: center;
 }
 
 .welcome {
